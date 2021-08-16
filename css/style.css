@@ -1,0 +1,39 @@
+
+label{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.btn{
+    display: block;
+    width: 100%;
+}
+.form-group{
+    position: relative;
+    padding-bottom: 3px;
+}
+.form-group i{
+    position: absolute;
+    top: 52px;
+    right: 20px;
+    visibility: hidden;
+}
+.form-group small{
+    padding-top: 3px;
+    display: block;
+    visibility: hidden;
+}
+/* .success .fa-check-circle{
+    visibility: visible;
+    color: #2ecc71;
+} */
+.error .fa-exclamation-circle{
+    visibility: visible;
+    color: #e74c3c;
+}
+.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+#table{
+    display: none;
+}
